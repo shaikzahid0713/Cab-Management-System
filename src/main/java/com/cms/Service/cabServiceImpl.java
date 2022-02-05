@@ -1,39 +1,23 @@
 package com.cms.Service;
 
+import com.cms.Dao.cabDao;
+import com.cms.Dao.cabDaoImpl;
+import com.cms.Model.cabModel;
+
+import java.util.LinkedHashSet;
+import java.util.Set;
 import java.util.logging.Logger;
 
 public class cabServiceImpl implements cabService{
-
     private static final Logger log = Logger.getLogger("cabServiceImpl.class");
+    Set<cabModel> cabService = new LinkedHashSet<>();
 
     @Override
-    public void raiseCabRequest() {
-
-    }
-
-    @Override
-    public void checkCabRequests() {
-
-    }
-
-
-    @Override
-    public void approveOrRejectCabRequest() {
-
-    }
-
-    @Override
-    public void addEmployee() {
-        System.out.println("=== Employee Menu ===");
-        System.out.println("1. Request a Cab ");
-        System.out.println("2. Check Cab Requests");
-        System.out.println("3. Book a Cab");
-
-    }
-
-    @Override
-    public void addCab() {
-
+    public Set<cabModel> getNoOfAvailableCabs () throws Exception {
+        log.info("Cab Service Implementation Class Called....");
+        cabDao cabD = new cabDaoImpl();
+        cabService = cabD.getNoOfAvailableCabs();
+        return cabService;
     }
 }
 
