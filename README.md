@@ -33,7 +33,5 @@ You just need to clone the repository using the following command.
 
 Contributions are always welcome!
 
-See `contributing.md` for ways to get started.
-
 Please adhere to this project's `code of conduct`.
 
