@@ -8,3 +8,8 @@ Tasked with creating an Cab Booking system for a small company/group. This progr
   3. MySQL
   4. Log4j
   5. JUnit
+
+# Getting Started
+(include git clone command) (include all environment setup steps)
+// Be sure to include BOTH Windows and Unix command
+// Be sure to mention if the commands only work on a specific platform (eg. AWS, GCP)
