@@ -1,7 +1,16 @@
 
 # Cab Management System
 
-Tasked with creating an Cab Booking system for a small company/group. This program will allow employees tobook a cab . When they approve/deny they can optionally leave a message. key features Employee An employee can login to add Cab booking request. All Managers can view these requests and approve or deny them.Admin can view all booking details and can add a cab,update and delete a cab. You can have these already in the database.. Backend developed in Java , Collections, Jdbc, MySQL .You need to implement Junit test cases , Log4j for recording log messages.
+- Implemented a Cab Booking system for a small company/group. This program will allow employees to book a cab. When they approve/deny they can optionally leave a message.
+- Key features: 
+    - Employee - An employee can login to add a Cab booking request. 
+    - Manager - All Managers can view these requests and approve or deny them.
+    - Admin - Admin can view all booking details and can add a cab,update and delete a cab. 
+- Data is already recorded in the database.. Backend developed using Java, Collections, Jdbc, MySQL .Implemented Junit test cases, Log4j for recording log messages.
+
+ 
+
+
 
  
 
